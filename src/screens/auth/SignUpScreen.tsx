@@ -65,7 +65,6 @@ const SignUpScreen = ({ navigation }: any) => {
         } else {
           message = '';
         }
-
         break;
 
       case 'password':

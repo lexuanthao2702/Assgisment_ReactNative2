@@ -29,3 +29,7 @@ axiosClient.interceptors.response.use(res => {
 });
 
 export default axiosClient;
+
+
+//axiosClient để cấu hình axiosClient có tác dụng hạn chế gọi phương thức và 
+// check xem khi nào res là 200, res.data, res.status. Tạo ra 1 lần và gọi lại để sử dụng.
